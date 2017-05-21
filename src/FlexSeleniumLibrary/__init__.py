@@ -1,7 +1,7 @@
-from keywords.flexselenium_keywords import FlexSeleniumKeywords
-from keywords.flexpilot_keywords import FlexPilotKeywords
-from sfapicommands import SeleniumFlexAPICommands
-from flexpilotcommands import FlexPilotCommands
+from .keywords.flexselenium_keywords import FlexSeleniumKeywords
+from .keywords.flexpilot_keywords import FlexPilotKeywords
+from .sfapicommands import SeleniumFlexAPICommands
+from .flexpilotcommands import FlexPilotCommands
 from Selenium2Library import Selenium2Library
 
 
